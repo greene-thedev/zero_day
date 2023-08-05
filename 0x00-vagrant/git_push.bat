@@ -1,13 +1,13 @@
-#!/bin/bash
+@REM #!/bin/bash
 
-#change to your desired commit message
+echo "#change to your desired commit message"
 commit_message="Your commit message here"
 
-# Add all files
+echo "# Add all files"
 git add .
 
-# Commit with the specified message
+echo "# Commit with the specified message"
 git commit -m "$commit_message"
 
-# Push changes to orign master
+echo "# Push changes to orign master"
 git push origin master
